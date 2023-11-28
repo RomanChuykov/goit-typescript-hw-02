@@ -12,10 +12,5 @@ enum Days{
   Sunday,
 }
 function isWeekend(day:Days):boolean{ 
-  if (day===Days.Saturday || day===Days.Sunday) {
-    return true
-  } else {
-    return false
-  }
-
+  return day===Days.Saturday || day===Days.Sunday 
 }
